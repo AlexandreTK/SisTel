@@ -6,5 +6,5 @@ ratings:
    paths:
    - "src/**.java"
 
-#exclude_paths:
-#- "spec/app/**/*"
+exclude_paths:
+- "**.js"
