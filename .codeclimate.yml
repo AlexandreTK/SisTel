@@ -1,10 +1,6 @@
 engines:
   sonar-java:
     enabled: true
-
-ratings:
-   paths:
-   - "src/**.java"
-
-exclude_paths:
-- "**.js"
+    config:
+      languages:
+      - java:
