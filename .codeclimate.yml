@@ -4,7 +4,9 @@ engines:
 
 ratings:
   paths:
-    - "src/**.java"
+    - "**.java"
 
 exclude_paths:
   - "**.js"
+  - ".mvn/wrapper/**"
+  - "bin/src/main/resources/**"
