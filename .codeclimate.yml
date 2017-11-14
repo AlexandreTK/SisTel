@@ -1,13 +1,10 @@
 engines:
-        sonar-java:
-                        enabled: true
-                exclude_paths:
-                - "**.js"     
+	sonar-java:
+		enabled: true
 
+ratings:
+	paths:
+	- "src/**.java"
 
-#ratings:
-#   paths:
-#   - "src/**.java"
-
-#exclude_paths:
-#- "**.js"
+exclude_paths:
+	- "**.js"
